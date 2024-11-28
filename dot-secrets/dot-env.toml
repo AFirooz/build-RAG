@@ -1,0 +1,11 @@
+# This file will be used with dotenv package
+# See https://pypi.org/project/python-dotenv/ for more details
+
+# LangSmith API
+# https://smith.langchain.com
+LANGCHAIN_TRACING_V2 = "true"
+LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com"
+LANGCHAIN_API_KEY = "YOUR_API_KEY"  # from https://smith.langchain.com
+
+# OpenAI API
+OPENAI_API_KEY = "YOUR_API_KEY"  # from https://platform.openai.com/api-keys
