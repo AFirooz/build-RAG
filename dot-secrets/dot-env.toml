@@ -9,3 +9,6 @@ LANGCHAIN_API_KEY = "YOUR_API_KEY"  # from https://smith.langchain.com
 
 # OpenAI API
 OPENAI_API_KEY = "YOUR_API_KEY"  # from https://platform.openai.com/api-keys
+
+# MongoDB Atlas
+MONGODB_URI = "CONNECTION_STRING"  # from https://cloud.mongodb.com

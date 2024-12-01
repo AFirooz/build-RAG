@@ -20,6 +20,9 @@ ipython = "^8.29.0"
 ipykernel = "^6.29.5"
 notebook = "^7.2.2"
 pypdf = "^5.1.0"
+langchain-ollama = "^0.2.0"
+langchain-mongodb = "^0.2.0"
+pymongo = {extras = ["srv"], version = "^4.10.1"}
 
 
 [build-system]
