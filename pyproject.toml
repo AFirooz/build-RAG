@@ -8,7 +8,7 @@ package-mode = false
 
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.10"
 langchain-community = "^0.3.8"
 tiktoken = "^0.8.0"
 langchain-openai = "^0.2.10"
@@ -23,6 +23,11 @@ pypdf = "^5.1.0"
 langchain-ollama = "^0.2.0"
 langchain-mongodb = "^0.2.0"
 pymongo = {extras = ["srv"], version = "^4.10.1"}
+sentence-transformers = "^3.3.1"
+qdrant-client = "^1.12.1"
+llama-index = "^0.12.5"
+llama-index-vector-stores-qdrant = "^0.4.0"
+langchain-qdrant = "^0.2.0"
 
 
 [build-system]
